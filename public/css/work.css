@@ -1,0 +1,82 @@
+.plus {
+    display: none;
+}
+
+.collapsed .plus {
+    display: inline;
+}
+
+.collapsed .minus {
+    display: none;
+}
+
+.form-search .txtsearch {
+    height: inherit;
+    padding-left: 5px !important;
+}
+
+.form-search {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-search .m-title {
+    top: -15px;
+    left: 30px;
+    padding: 3px 10px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.form-search .mg-2date .mg-date {
+    width: calc(50% - 1em);
+    display: inline-flex;
+}
+
+.form-search .mg-2radio .btn {
+    width: 6em;
+    font-size: 90%;
+}
+
+.form-search td {
+    padding: 5px 20px;
+}
+
+.form-search td label,
+.form-search td input,
+.form-search td select {
+    width: 100%;
+}
+
+.table thead th,
+.table tr td {
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+
+.table-work tr.tr-ovan {
+    background: #eaf4ff;
+}
+
+.form-search .txtsearch.datetimepicker {
+    height: 26px;
+    padding: 0;
+}
+
+.table-work td {
+    word-break: break-all;
+}
+
+#collapseSearch .btn-info {
+    color: #040404;
+    background-color: #d8d8d8;
+    border-color: #cbcbcb;
+}
+
+#collapseSearch .btn-info:not(:disabled):not(.disabled).active,
+#collapseSearch .btn-info:not(:disabled):not(.disabled):active,
+#collapseSearch .show>.btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #117a8b;
+    border-color: #10707f;
+}

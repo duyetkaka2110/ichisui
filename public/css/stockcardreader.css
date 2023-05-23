@@ -1,0 +1,86 @@
+.h-title {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.t1 label {
+    width: 4em;
+    display: inline-block;
+}
+
+.t1 input {
+    padding: 5px;
+    height: 25px;
+    font-size: 12px;
+}
+
+.btn-custom2 {
+    width: auto;
+    padding: 5px 35px;
+    line-height: unset;
+    height: auto;
+}
+
+.margin-btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.back {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.gj-datepicker-bootstrap [role=right-icon] button .gj-icon,
+.gj-datepicker-bootstrap [role=right-icon] button .material-icons {
+    top: 3px;
+}
+
+table {
+    width: 100%;
+}
+
+table .t1 td {
+    padding: 5px 0;
+}
+
+.h-title {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.t1 label {
+    width: 5em;
+    display: inline-block;
+}
+
+.t1 select {
+    width: calc(100% - 5em - 5px);
+    display: inline-block;
+    padding: 5px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.btn-custom2 {
+    width: auto;
+    padding: 5px 35px;
+    line-height: unset;
+    height: auto;
+}
+
+.margin-btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.back {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}

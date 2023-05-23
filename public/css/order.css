@@ -1,0 +1,114 @@
+#MaterialModal .modal-header {
+    justify-content: center;
+    color: #fff;
+}
+
+#MaterialModal .txtsearch {
+    height: inherit;
+}
+
+#MaterialModal .m-header {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#MaterialModal .m-title {
+    top: 18px;
+    left: 42px;
+    padding: 3px 10px;
+    background: #fff;
+}
+
+#MaterialModal .modal-dialog {
+    width: 900px;
+    max-width: 90%;
+}
+
+#MaterialModal .m-header table td:nth-child(1) {
+    width: 30%;
+}
+
+#MaterialModal .m-header table td:nth-child(2) {
+    width: 30%;
+}
+
+#MaterialModal .m-header table td:nth-child(3) {
+    width: 30%;
+}
+
+#MaterialModal .m-header table td:nth-child(4) {
+    width: 10%;
+}
+
+#MaterialModal .m-header table td input,
+#MaterialModal .m-header table td select {
+    width: calc(100% - 5em);
+}
+
+#MaterialModal .table-marterial td,
+#MaterialModal .table-marterial th {
+    padding: 3px 5px;
+}
+
+#MaterialModal .table-marterial th {
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+#MaterialModal .m-content {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+#MaterialModal .m-content .table select {
+    width: 100%;
+}
+
+@media screen and (max-height: 700px) {
+    #MaterialModal .m-content {
+        height: 250px;
+    }
+}
+
+@media screen and (max-height: 550px) {
+    #MaterialModal .m-content {
+        height: 200px;
+    }
+}
+
+@media screen and (max-height: 480px) {
+    #MaterialModal .m-content {
+        height: 150px;
+    }
+}
+
+.table .i-text {
+    height: inherit;
+    width: 4em;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.main-header .m-h-right button {
+    width: 6em;
+}
+
+@media screen and (min-width:976px) {
+    .main-header .m-h-left button {
+        width: 14em;
+    }
+}
+
+.table select {
+    height: inherit;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,326 @@
+.header-content {
+    background-color: white;
+    padding-top: 20px;
+}
+
+.form-control.selectFormNM {
+    margin: 10px 0 10px 0;
+    width: 168px;
+}
+
+.drop {
+    font-size: 9px;
+}
+
+.menu a {
+    color: blue;
+}
+
+button {
+    width: 100px;
+}
+
+table .materialselected {
+    float: right;
+}
+
+.button.btn.btn-primary {
+    margin-left: 5px;
+    /* float: right; */
+}
+
+.button.btn.btn-primary.save {}
+
+.button.btn.btn-primary.output {
+    margin-bottom: 5px;
+}
+
+h2 {
+    /* float: left; */
+    width: 140px;
+    margin: 0% 0 24px;
+    /* display: inline-block; */
+}
+
+.input-group h4 {
+    margin: 7px;
+}
+
+.form-control.post {
+    text-align: right;
+}
+
+.lbl {
+    width: 135px;
+    padding-left: 10px;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.un {
+    text-align: left;
+}
+
+.testlbl {
+    width: 150px;
+    padding-left: 10px;
+}
+
+.table td {
+    text-align: center;
+    /* width: 100px; */
+    margin: 0;
+    padding: 10px;
+}
+
+table tr td {
+    padding: 5px;
+}
+
+.clock {
+    text-align: right;
+}
+
+.talbetext {
+    width: 700px;
+}
+
+table .form-group {
+    margin: 0;
+}
+
+.table .status {
+    width: 100px;
+}
+
+.table .input-group {
+    margin: 0px auto 0px auto;
+    /* padding: auto; */
+}
+
+textarea.input-lg {
+    height: 200px;
+    width: 700px;
+}
+
+.form-control.longtext {
+    width: 400px;
+}
+
+.input-group-text {
+    width: 34px;
+    display: block;
+}
+
+.input-group.input-group-sm {
+    width: 235px;
+}
+
+.input-group.input-group-sm.post {
+    width: 60px;
+    text-align: right;
+}
+
+.input-group.input-group-sm.longtext {
+    width: 500px;
+}
+
+.input-group.select {
+    width: 235px;
+}
+
+.form-control.address {
+    width: 300px;
+}
+
+.form-control.deliveryPermitter {
+    width: 235px;
+}
+
+.form-control.Guidelines {
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+}
+
+.buttonForm.input-group {
+    float: right;
+    margin-right: 328px;
+}
+
+hr {
+    clear: both;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.buttonForm .link .menu a {
+    border-right: 1px solid;
+    border-color: black;
+    padding-right: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+#WWName {
+    color: red;
+}
+
+#WWType {
+    color: red;
+}
+
+
+/* .waterchecktable tr td {
+    padding-right: 10px;
+} */
+
+
+/* .drainagechecktable .tablelbl {
+    padding-right: 42px;
+} */
+
+.form-group {
+    float: right;
+    margin: 0;
+    text-align: right;
+}
+
+.link {
+    float: left;
+}
+
+.requester-body {
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+
+.construction-body {
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+
+.text {
+    width: 200px;
+}
+
+.collapsetitle {
+    cursor: pointer;
+    display: table-cell;
+}
+
+.collapsetitle.collapsed {
+    display: table-cell;
+}
+
+.collapsetitle .plus {
+    display: none;
+}
+
+.collapsed .plus {
+    display: inline;
+}
+
+.collapsed .minus {
+    display: none;
+}
+
+button.close {
+    padding-left: 465px;
+    padding-top: 10px;
+}
+
+.work-body {
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+
+.worktable tr td h4 {
+    display: inline-block;
+}
+
+.table td,
+th {
+    border: 1px solid #ccc;
+}
+
+.tbl-total td {
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+    background-color: #f8f9fa!important;
+}
+
+.photo-body {
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+#photoTable tbody td img {
+    width: 100px;
+    padding: 0
+}
+
+#ImageModal .browse {
+    width: 100%;
+    overflow: hidden;
+}
+
+#ImageModal .custom-file .custom-file-label {
+    height: 38px;
+}
+
+#ImageModal .custom-file .custom-file-label::after {
+    height: 36px;
+    content: "ファイル選択"
+}
+
+#ShowImageModal .modal-body img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+label {
+    margin: 0;
+}
+
+#useMaterial tr:nth-child(2n) td {
+    background: #eaf4ff;
+}
+
+.form-control[readonly] {
+    color: #000000;
+    background: #f5f5f5;
+}
+
+.mg-scroll {
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 1022px) {
+    .buttonForm .link .menu a {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}

@@ -1,0 +1,89 @@
+#HistoryModal .table td,
+#HistoryModal .table th {
+    padding: 5px;
+}
+
+table .image-thumb img {
+    width: 5em;
+}
+
+table .image-thumb {
+    width: 60px;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+#ImageModal img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+.datetimepicker {
+    height: 26px;
+    padding: 0;
+}
+
+#ConfirmKenpinModal .modal-dialog {
+    max-width: 600px;
+}
+
+#ConfirmKenpinModal ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+#ConfirmKenpinModal ul li label.t {
+    width: 7em;
+    display: inline-block;
+}
+
+#ConfirmKenpinModal ul li .text {
+    width: calc(100% - 8em);
+    display: inline-block;
+    font-size: inherit;
+    padding: 3px;
+}
+
+#ConfirmKenpinModal ul li .input-group-sm {
+    width: calc(100% - 8em);
+    display: inline-flex;
+}
+
+#ConfirmKenpinModal ul li.likenpinbi .text {
+    padding: 0;
+}
+
+#ConfirmKenpinModal ul li.likenpinbi .text input {
+    font-size: inherit;
+}
+
+#ConfirmKenpinModal .gj-datepicker-bootstrap [role=right-icon] button .gj-icon {
+    top: 6px;
+}
+
+input[name="kenpinoptionnumber"] {
+    width: 6em;
+    height: 35px;
+    margin-right: 5px;
+}
+
+#bun1kenpin {
+    margin-left: 15px;
+}
+
+#KenpinHistoryModal .modal-dialog {
+    max-width: 800px;
+}
+
+.tableorderstatus .kenpin label {
+    font-size: inherit;
+    padding: 3px;
+}

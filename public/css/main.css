@@ -1,0 +1,106 @@
+body {
+    font-size: 13px;
+}
+
+.btn {
+    font-size: inherit;
+}
+
+.loading {
+    top: 0;
+    z-index: 1111;
+    background: #ffffffa1;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.pagination li {
+    cursor: pointer;
+}
+
+.loading .text-center {
+    position: fixed;
+    top: 45%;
+    right: 0;
+    left: 0;
+}
+
+#MaterialModal .modal-footer,
+#ConfirmModal .modal-footer {
+    justify-content: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+#MaterialModal .table tbody tr {
+    cursor: pointer;
+}
+
+#MaterialModal .table tbody tr.active {
+    background: #59a9ff;
+}
+
+#success-alert {
+    top: 20px;
+    right: 15px;
+    display: none;
+    z-index: 1200;
+}
+
+.height-inherit {
+    height: inherit !important;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.table td select,
+.table td input {
+    font-size: 13px;
+}
+
+.datetimepicker .input-group-prepend,
+.datetimepicker1 .input-group-prepend,
+.datetimepicker2 .input-group-prepend,
+.datetimepicker3 .input-group-prepend {
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#TopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: auto;
+    cursor: pointer;
+    background: none;
+    opacity: 0.5;
+}
+
+#TopBtn:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,408 @@
+body {
+    max-width: 98%;
+    width: 1550px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    height: 50px;
+}
+
+h4 {
+    display: inline-block;
+    margin: 10px 5px auto 5px;
+}
+
+div.search {
+    width: 100%;
+    display: inline-block;
+}
+
+.form-group {
+    float: right;
+    margin: 10px 5px auto 5px;
+}
+
+.form-group button {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.table .input-group.input-group-sm {
+    margin: 0;
+}
+
+.input-group.input-group-sm {
+    width: 70px;
+    display: inline-block;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.selectUse {
+    border: none;
+}
+
+.selectBuyPrice {
+    border: none;
+}
+
+.selectLoss {
+    border: none;
+}
+
+.selectSellPrice {
+    border: none;
+}
+
+.input-group.input-group-sm.unit {
+    width: 60px;
+    margin: 0;
+}
+
+.input-group.input-group-sm.selectmaterial {
+    width: 150px;
+    display: block;
+    margin: 0;
+    border: none;
+}
+
+.input-group.input-group-sm.longtext {
+    width: 203px;
+}
+
+.input-group.input-group-sm.longtext2 {
+    width: 130px;
+}
+
+.form-control.text.input.number {
+    text-align: right;
+    padding: 0;
+}
+
+.input-group.select.searchtCls {
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+}
+
+header {
+    border-bottom: 2px solid #ccc;
+}
+
+.listmaterial {
+    width: 70%;
+    margin-right: 10px;
+    border-left: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+div .selectmaterial {
+    border-bottom: 2px solid #ccc;
+    width: 35%;
+    padding-bottom: 5px;
+}
+
+.oldDate {
+    border-bottom: 2px solid #ccc;
+}
+
+.selectmaterials {
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    width: 30%;
+    background: #fff;
+}
+
+.CustomMaterialAdd {
+    cursor: pointer;
+}
+
+.button.btn.btn-primary.materialsearch {
+    padding: 3px 5px 3px 5px;
+    margin-bottom: 2px;
+    margin-bottom: 10px;
+}
+
+.table td {
+    vertical-align: middle;
+    padding: 0;
+}
+
+td.searchtd {
+    padding: 0;
+    text-align: left;
+}
+
+.table {
+    margin-top: 10px;
+}
+
+.MaterialNM {
+    width: 200px;
+}
+
+.MaterialID {
+    width: 70px;
+}
+
+.Type {
+    width: 70px;
+}
+
+table {
+    text-align: center;
+}
+
+.materialtable {
+    margin: 0 0 0 10px;
+    width: 97%;
+}
+
+.table .form-control.text {
+    border: none;
+}
+
+.table .form-control.text.input {
+    border: 1px solid #ced4da;
+}
+
+.selectmaterial .form-control.text {
+    height: 25px;
+    border: none;
+}
+
+.selectmaterial .form-control.shorttext {
+    width: 50px;
+    text-align: center;
+}
+
+.materialtable .form-control.text.input.number {
+    width: 48px;
+    padding-right: 4px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 3px 0;
+}
+
+.form-control:disabled {
+    background: #fff;
+}
+
+.form-control.form-control-sm.selectMaterialCls {
+    appearance: none;
+    border: none;
+}
+
+.MaterialCls {
+    width: 100px;
+}
+
+.tabletext {
+    margin: 10px 0 0 12px;
+}
+
+.input-group.input-group-sm.longtext.CustomOrder {
+    margin-right: 0;
+    margin-bottom: 0px;
+}
+
+.input-group.input-group-sm.CustomOrder {
+    margin-right: 0;
+    margin-bottom: 0px;
+}
+
+.input-group.input-group-sm.CustomOrder.number {
+    width: 81px;
+}
+
+.CustomOrderMaterial td {
+    border: 1px solid #ccc;
+}
+
+.CustomOrderMaterial {
+    margin: 0px 10px 3px 10px;
+    width: 97%;
+}
+
+.selectLbl {
+    font-size: 12px;
+}
+
+.CustomOrderAdd.btn.btn-primary {
+    margin-left: 684px;
+}
+
+.ButtonInput {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ccc;
+}
+
+.table td,
+th {
+    border: 1px solid #ccc;
+}
+
+.tabletitle {
+    background-color: #f8f9fa !important;
+}
+
+.table th {
+    padding: 0px;
+}
+
+.unit {
+    font-size: 10px;
+}
+
+.input-group.select.searchtCls {
+    width: 125px;
+}
+
+.unitTh {
+    width: 85px;
+}
+
+.button.btn.btn-primary.input {
+    width: 106px;
+}
+
+.Type {
+    width: 120px;
+}
+
+.input-group.input-group-sm.Type {
+    width: 117px;
+}
+
+.pagination {
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.fa-2x {
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 600px;
+        margin: 1.75rem auto;
+    }
+}
+
+
+/* キーパッド */
+
+.keypad-popup {
+    /* 線が太くて濃くてダサいので、bootstrap に合わせる */
+    border: 1px solid #dee2e6;
+}
+
+.keypad-special,
+.keypad-key {
+    /* 線が太くて濃くてダサいので、bootstrap に合わせる */
+    border: 1px solid #dee2e6;
+    /* border を細くしたので、ちょっとだけ広げる */
+    padding: 4px;
+}
+
+.keypad-close {
+    /* bootstrap の success に合わせる */
+    background-color: #28a745;
+}
+
+.keypad-clear {
+    /* bootstrap の danger に合わせる */
+    background-color: #dc3545;
+}
+
+.keypad-back {
+    /* bootstrap の primary に合わせる */
+    background-color: #007bff;
+}
+
+.keypad-shift {
+    /* bootstrap の info に合わせる */
+    background-color: #17a2b8;
+}
+
+.keypad-spacebar {
+    /*デフォルトは 13.25em だけど、keypad-tab を 2em 大きくしたので、その分小さくする */
+    width: 11.25em;
+}
+
+.keypad-tab {
+    /*デフォルトは 2em だけど小さいので大きくする*/
+    width: 4em;
+}
+
+
+/* キーパッド（独自追加分） */
+
+.keypad-zero,
+.keypad-one,
+.keypad-two,
+.keypad-three,
+.keypad-four,
+.keypad-five,
+.keypad-six,
+.keypad-seven,
+.keypad-eight,
+.keypad-nine,
+.keypad-ten,
+.keypad-plus,
+.keypad-minus {
+    /* keypad-key に合わせる */
+    width: 2em;
+}
+
+.MaterialAdd,
+.page-item,
+.MaterialDelete {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1271px) {
+    .listmaterial {
+        overflow-x: scroll;
+    }
+    .input-group.input-group-sm.longtext {
+        width: 130px;
+    }
+    .input-group.input-group-sm.longtext2 {
+        width: 90px;
+    }
+    .input-group.input-group-sm {
+        width: 50px;
+    }
+    .input-group.input-group-sm.CustomOrder.number {
+        width: 60px;
+    }
+    .MaterialNM {
+        width: 130px;
+    }
+    .Type {
+        width: 100px;
+    }
+    .input-group.input-group-sm.selectmaterial {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 1271px) {
+    .selectmaterials {
+        overflow-x: scroll;
+    }
+}

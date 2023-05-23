@@ -1,0 +1,291 @@
+.margin-all-background {
+    background: #fff;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.margin-search-title {
+    margin-top: 20px;
+}
+
+#btnkojikensaku {
+    font-size: 12px;
+    height: 17px;
+}
+
+.margin-search .table-margin-1 td {
+    width: 25%;
+    padding: 0 10px;
+}
+
+.margin-search .table-margin-1 td:nth-child(4) {
+    width: 15%;
+}
+
+.margin-search .table-margin-1 td:nth-child(5) {
+    width: 10%;
+}
+
+.margin-search .table-margin-1 td input,
+.margin-search .table-margin-1 td select,
+.margin-search .table-margin-1 td label {
+    width: 100%;
+    margin: 0;
+}
+
+.margin-search,
+.margin-table {
+    background: #fff;
+}
+
+.margin-all-background .floatThead-container {
+    max-width: 100% !important;
+}
+
+.margin-btn-select {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.margin-btn-select div.t1 {
+    width: auto;
+    position: relative;
+    float: left;
+}
+
+.margin-btn-select div.t1:nth-child(2) {
+    padding: 10px 20px;
+}
+
+.margin-btn-select div.mar-btn {
+    min-width: 12em;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.margin-btn-select label {
+    width: 8em;
+    background: #fff;
+    position: absolute;
+    top: -11px;
+    left: 24px;
+    text-align: center;
+}
+
+.margin-btn-select button {
+    width: 9em;
+}
+
+.margin-btn-select select {
+    height: 20px;
+    font-size: 12px;
+    padding: 0;
+}
+
+.clear_left {
+    clear: left;
+}
+
+#QuantityModal .modal-body .gj-unselectable {
+    width: 160px;
+    display: inline-flex;
+}
+
+#QuantityModal .modal-body .gj-datepicker-bootstrap [role=right-icon] button .gj-icon {
+    top: 2px;
+}
+
+#QuantityModal .modal-body .tablelist {
+    width: 100%;
+}
+
+#QuantityModal .modal-body .tablelist td:nth-child(3) {
+    width: 60px;
+}
+
+#QuantityModal .modal-body .tablelist input {
+    margin: 5px;
+    width: 55px;
+}
+
+#QuantityModal .form-control:disabled,
+#QuantityModal .form-control[readonly] {
+    border-radius: 0.25em;
+}
+
+#NewStockModal .modal-body .t {
+    text-align: center;
+}
+
+#NewStockModal .modal-body div.txtinput {
+    text-align: center;
+}
+
+#NewStockModal .modal-body div.txtinput span {
+    display: inline-block;
+    padding: 10px;
+    width: auto;
+}
+
+#NewStockModal .modal-body div.txtinput input {
+    font-size: 25px;
+    display: inline-block;
+    width: 115px;
+    text-align: center;
+}
+
+#NewStockModal .modal-body .note {
+    margin-top: 10px;
+}
+
+#NewStockModal .modal-body .note p {
+    color: red;
+    margin: 0;
+    text-align: center;
+}
+
+.margin-btn-action {
+    width: 100%;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.margin-btn-action .float_left button {
+    width: 7em;
+}
+
+#QuantityModal .modal-dialog {
+    max-width: 500px;
+}
+
+#QuantityModal .margin-modal {
+    max-width: 100%;
+}
+
+#QuantityModal table tr th:nth-child(3) {
+    width: 7em;
+}
+
+#QuantityModal .table-responsive {
+    max-height: 260px;
+}
+
+.tablestockdetail tr td:nth-child(1),
+.tablestockdetail tr td:nth-child(2),
+.tablestock tr td:nth-child(4) {
+    text-align: left;
+}
+
+.btn-InvenConfirm-Delete {
+    display: none;
+}
+
+.AmountAllFixDate {
+    display: inline-block;
+    width: 8em;
+    font-size: 12px;
+    padding: 0;
+    height: auto;
+    line-height: 20px;
+}
+
+.btn.disabled,
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#ImageZoomModal img {
+    max-width: 100%;
+}
+
+@media (max-width: 827px) {
+    .margin-search table td {
+        padding: 0 2px;
+    }
+}
+
+.tablestock {
+    position: relative;
+}
+
+.float_right {
+    float: right;
+}
+
+.float_left {
+    float: left;
+}
+
+.btn-custom {
+    height: 20px;
+    padding: 0;
+    line-height: 20px;
+    width: 6em;
+    text-align: center;
+    font-size: 12px;
+}
+
+.margin-search table input,
+.margin-search table select {
+    width: 85px;
+    display: inline-block;
+    height: 20px;
+    padding: 0;
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+.hidden {
+    display: none;
+}
+
+.margin-search {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.title-search {
+    background: #fff;
+    top: -10px;
+    left: 13px;
+    width: 7em;
+    z-index: 2;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+}
+
+.margin-search-title {
+    min-height: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+table.tablelistmain td img {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+table.tablelistmain td .image-thumb {
+    width: 60px;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.table thead th,
+.table tr td {
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
